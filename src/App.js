@@ -19,7 +19,7 @@ const menuItems = [
 ];
 
 function App() {
-  const [selectedItem, setSelectedItem] = useState("User List");
+  const [selectedItem, setSelectedItem] = useState("Dashboard");
 
   const handleItemClick = (item) => {
     setSelectedItem(item);
